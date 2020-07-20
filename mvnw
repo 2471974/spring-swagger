@@ -68,7 +68,7 @@ esac
 
 if [ -z "$JAVA_HOME" ] ; then
   if [ -r /etc/gentoo-release ] ; then
-    JAVA_HOME=`java-config --jre-home`
+    JAVA_HOME=`java-guru.spring.swagger.config --jre-home`
   fi
 fi
 
